@@ -1,0 +1,363 @@
+{
+  "users": [
+    {
+      "id": "98ca3981-fd37-47f8-b226-825e28c28947",
+      "name": "Fabian Zambrano",
+      "username": "fabian00",
+      "password": "123",
+      "email": "hola@google.com",
+      "type_of_user": "consumer",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "a8e85df2-79ec-4a09-8fdc-2517271065b2",
+      "name": "Fabian Zambrano",
+      "username": "fabian123",
+      "password": "123",
+      "email": "fabian@google.com",
+      "type_of_user": "consumer",
+      "create_at": "2023-12-13T21:54:37.605Z"
+    }
+  ],
+  "markets": [
+    {
+      "id": "market1",
+      "name": "Merca Panamá",
+      "country": "Panamá",
+      "province": "Panamá",
+      "address": "Vía Centenario",
+      "status": "Abierto",
+      "time": {
+        "weekdays": "Días de semana: 8:00 am - 5:00 pm",
+        "weekend": "Fin de semana: 7:00 am 4:00 pm"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "market2",
+      "name": "San Felipe Neri",
+      "country": "Panamá",
+      "province": "Panamá",
+      "address": "Al lado del mercado de mariscos",
+      "status": "Cerrado",
+      "time": {
+        "weekdays": "Días de semana: 8:00 am - 5:00 pm",
+        "weekend": "Fin de semana: 7:00 am 4:00 pm"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "market3",
+      "name": "Mercado Público de La Chorrera",
+      "country": "Panamá",
+      "province": "Panamá Oeste",
+      "address": "Av. Libertador",
+      "status": "En reparación",
+      "time": {
+        "weekdays": "Días de semana: --",
+        "weekend": "Fin de semana: --"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "market4",
+      "name": "Mercadito Nuevo Arraiján",
+      "country": "Panamá",
+      "province": "Panamá Oeste",
+      "address": "Nte., Nuevo Arraiján",
+      "status": "Operativo",
+      "time": {
+        "weekdays": "Días de semana: 24/7",
+        "weekend": "Fin de semana: 24/7"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "market5",
+      "name": "Mercado Público de Penonomé",
+      "country": "Panamá",
+      "province": "Coclé",
+      "address": "Centro de Penonomé",
+      "status": "Irregular",
+      "time": {
+        "weekdays": "Días de semana: 8:00 am - 5:00 pm",
+        "weekend": "Fin de semana: --"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "market6",
+      "name": "Mercado Público de Aguadulce",
+      "country": "Panamá",
+      "province": "Coclé",
+      "address": "Centro de Aguadulce",
+      "status": "En construcción",
+      "time": {
+        "weekdays": "Días de semana: --",
+        "weekend": "Fin de semana: --"
+      },
+      "created_at": "2023-11-25T04:42:37.487Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "product1",
+      "name": "Papas Nacional",
+      "price_per_unit": 0.39,
+      "type_of_measure": "Saco",
+      "units_per_measure": 30,
+      "amount": 1,
+      "description": "Cosecha de fin de año",
+      "stock": 1200,
+      "merchant": "market1",
+      "total": 11.71,
+      "merchant_name": "Merca Panamá",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product2",
+      "name": "Tomate Perita",
+      "price_per_unit": 0.75,
+      "type_of_measure": "Empaque",
+      "units_per_measure": 35,
+      "amount": 1,
+      "description": "Recién cosechados",
+      "stock": 1500,
+      "merchant": "market1",
+      "total": 26.25,
+      "merchant_name": "Merca Panamá",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product3",
+      "name": "Arroz Arrosisimo 20lb",
+      "price_per_unit": 9.09,
+      "type_of_measure": "Bolsa",
+      "units_per_measure": 2,
+      "amount": 1,
+      "description": "En buen estado",
+      "stock": 340,
+      "merchant": "market2",
+      "total": 18,
+      "merchant_name": "San Felipe Neri",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product4",
+      "name": "Naranja de Jugo",
+      "price_per_unit": 0.12,
+      "type_of_measure": "Saco",
+      "units_per_measure": 60,
+      "description": "En descuento",
+      "amount": 1,
+      "stock": 100,
+      "merchant": "market2",
+      "total": 7.2,
+      "merchant_name": "San Felipe Neri",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product5",
+      "name": "Platano Verde",
+      "price_per_unit": 0.3,
+      "type_of_measure": "Bolsa",
+      "units_per_measure": 33,
+      "amount": 1,
+      "description": "Pocas unidades",
+      "stock": 50,
+      "merchant": "market3",
+      "total": 9.9,
+      "merchant_name": "Mercado Público de La Chorrera",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product6",
+      "name": "Cebolla Amarilla Nacional",
+      "price_per_unit": 0.6,
+      "type_of_measure": "Saco",
+      "units_per_measure": 30,
+      "description": "Pocas unidades",
+      "amount": 1,
+      "stock": 10,
+      "merchant": "market3",
+      "total": 18,
+      "merchant_name": "Mercado Público de La Chorrera",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product7",
+      "name": "Arroz Pelín 20lb",
+      "price_per_unit": 9.21,
+      "type_of_measure": "Saco",
+      "units_per_measure": 2,
+      "description": "Productos nuevos",
+      "amount": 1,
+      "stock": 500,
+      "merchant": "market4",
+      "total": 18.4,
+      "merchant_name": "Mercadito Nuevo Arraiján",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product8",
+      "name": "Azucar La Estrella 5kg",
+      "price_per_unit": 7.52,
+      "type_of_measure": "Sobre",
+      "units_per_measure": 5,
+      "description": "Cosecha de fin de año",
+      "amount": 1,
+      "stock": 233,
+      "merchant": "market4",
+      "total": 37.5,
+      "merchant_name": "Mercadito Nuevo Arraiján",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product9",
+      "name": "Azucar Like 5kg",
+      "price_per_unit": 7,
+      "type_of_measure": "Sobre",
+      "units_per_measure": 7,
+      "description": "En descuento",
+      "amount": 1,
+      "stock": 192,
+      "merchant": "market5",
+      "total": 49,
+      "merchant_name": "Mercado Público de Penonomé",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    },
+    {
+      "id": "product10",
+      "name": "Platano Amarillo Nacional",
+      "price_per_unit": 0.35,
+      "type_of_measure": "Saco",
+      "units_per_measure": 33,
+      "description": "En buen estado",
+      "amount": 1,
+      "stock": 401,
+      "total": 11.55,
+      "merchant": "market5",
+      "merchant_name": "Mercado Público de Penonomé",
+      "create_at": "2023-11-25T04:42:37.487Z"
+    }
+  ],
+  "sales": [
+    {
+      "products": [
+        {
+          "id": "product3",
+          "name": "Arroz Arrosisimo 20lb",
+          "price_per_unit": 9.09,
+          "type_of_measure": "Bolsa",
+          "units_per_measure": 2,
+          "amount": 1,
+          "description": "En buen estado",
+          "stock": 340,
+          "merchant": "market2",
+          "tota": "18.18",
+          "merchant_name": "San Felipe Neri",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        },
+        {
+          "id": "product7",
+          "name": "Arroz Pelín 20lb",
+          "price_per_unit": 9.21,
+          "type_of_measure": "Saco",
+          "units_per_measure": 2,
+          "description": "Productos nuevos",
+          "amount": 1,
+          "stock": 500,
+          "merchant": "market4",
+          "tota": "18.42",
+          "merchant_name": "Mercadito Nuevo Arraiján",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        }
+      ],
+      "total": "36.60",
+      "enLocal": true,
+      "hora": 6,
+      "hora2": "hace unos instantes...",
+      "status": "progreso",
+      "titulo": "Tu pedido se ha realizado con exito",
+      "id": "yxmbN1g"
+    },
+    {
+      "products": [
+        {
+          "id": "product10",
+          "name": "Platano Amarillo Nacional",
+          "price_per_unit": 0.35,
+          "type_of_measure": "Saco",
+          "units_per_measure": 33,
+          "description": "En buen estado",
+          "amount": 1,
+          "stock": 401,
+          "tota": "11.55",
+          "merchant": "market5",
+          "merchant_name": "Mercado Público de Penonomé",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        },
+        {
+          "id": "product5",
+          "name": "Platano Verde",
+          "price_per_unit": 0.3,
+          "type_of_measure": "Bolsa",
+          "units_per_measure": 33,
+          "amount": 1,
+          "description": "Pocas unidades",
+          "stock": 50,
+          "merchant": "market3",
+          "tota": "9.90",
+          "merchant_name": "Mercado Público de La Chorrera",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        }
+      ],
+      "total": "21.45",
+      "hora": 0,
+      "enLocal": false,
+      "hora2": "hace 2 horas",
+      "status": "entregado",
+      "titulo": "Tu pedido ha sido entregado",
+      "id": "57nY2sx"
+    },
+    {
+      "products": [
+        {
+          "id": "product9",
+          "name": "Azucar Like 5kg",
+          "price_per_unit": 7,
+          "type_of_measure": "Sobre",
+          "units_per_measure": 7,
+          "description": "En descuento",
+          "amount": 1,
+          "stock": 192,
+          "merchant": "market5",
+          "tota": "49.00",
+          "merchant_name": "Mercado Público de Penonomé",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        },
+        {
+          "id": "product8",
+          "name": "Azucar La Estrella 5kg",
+          "price_per_unit": 7.52,
+          "type_of_measure": "Sobre",
+          "units_per_measure": 5,
+          "description": "Cosecha de fin de año",
+          "amount": 1,
+          "stock": 233,
+          "merchant": "market4",
+          "tota": "37.60",
+          "merchant_name": "Mercadito Nuevo Arraiján",
+          "create_at": "2023-11-25T04:42:37.487Z"
+        }
+      ],
+      "total": "86.60",
+      "hora": 2,
+      "hora2": "--",
+      "status": "cancelado",
+      "titulo": "Tu pedido ha sido cancelado",
+      "enLocal": false,
+      "id": "ph9WrOs"
+    }
+  ]
+}
